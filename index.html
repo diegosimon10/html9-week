@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Champions League Group Stage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12."></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Match Stats</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Match's</a></li>
+              <li><a class="dropdown-item" href="#">Teams</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Group Stages</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div class="container mt-4">
+    <h3>Group Stage</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Group C</th>
+          <th scope="col">Played</th>
+          <th scope="col">Points</th>
+          <th scope="col">Lost</th>
+          <th scope="col">Draws</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Bayern</th>
+          <td>6</td>
+          <td>18</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th scope="row">Inter</th>
+          <td>6</td>
+          <td>10</td>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th scope="row">Barcelona</th>
+          <td>6</td>
+          <td>7</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  
+  <div class="container mt-4">
+    <h3>Get Updates About More UCL</h3>
+    <form>
+      <div class="form-group">
+        <label for="nameInput">Name:</label>
+        <input type="text" class="form-control" id="nameInput" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="emailInput">Email:</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Enter email">
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
